@@ -130,9 +130,10 @@ footer {
 }
 
 .web-footer {
-  color: var(--sec-backgroundcolor);
+  color: #2196f3;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  line-height: 31px;
 }
 
 .studio-logo-footer {
