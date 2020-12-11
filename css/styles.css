@@ -1,3 +1,20 @@
+:root {
+  --main-text-color: #212121;
+  --sec-text-color: #ffffff;
+
+  --main-backgroundcolor: #ffffff;
+  --sec-backgroundcolor: #2196f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+.team img {
+  width: 270px;
+  height: 260px;
+}
+
 li {
   list-style: none;
 }
@@ -7,69 +24,90 @@ body {
 }
 
 .web {
-  color: #2196f3;
-  font-family: "Raleway", sans-serif;
-}
-
-.studio-logo {
-  color: #212121;
+  color: var (--sec-backgroundcolor);
   font-family: "Raleway", sans-serif;
 }
 
 .link-studio,
 .link-portfolio,
 .link-contacts {
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .link-studio:hover,
 .link-studio:focus {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
 }
 
 .link-portfolio:hover,
 .link-portfolio:focus {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
 }
 
 .link-contacts:hover,
 .link-contacts:focus {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
 }
 .mail {
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .mail:hover,
 .mail:focus {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
 }
 
 .telephone {
-  color: #212121;
+  color: var(--main-text-color);
 }
 .telephone:hover,
 .telephone:focus {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
 }
 .hero {
   background-color: #2f303a;
 }
 
 h1 {
-  color: white;
+  color: var(--main-backgroundcolor);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
 .service-button {
-  background-color: #2196f3;
+  background-color: var(--sec-backgroundcolor);
+}
+
+.service-button-p {
+  color: #f5f4fa;
+}
+
+.service-button-p:hover,
+.service-button-p:focus {
+  color: #2196f3;
+}
+
+.buttons > li:hover,
+.buttons > li:focus {
+  color: var(--sec-backgroundcolor);
+}
+.button-text-p {
+  color: var(--main-text-color);
+}
+
+.button-text-p:hover,
+.button-text-p:focus {
+  color: #ffffff;
 }
 
 .button-text {
-  color: white;
+  color: #ffffff;
 }
 
 h2,
 h3 {
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .description {
@@ -91,16 +129,39 @@ footer {
   color: #757575;
 }
 
-.studio-logo-footer {
-  color: white;
+.web-footer {
+  color: var(--sec-backgroundcolor);
   font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+
+.studio-logo-footer {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
 }
 
 .address {
   color: #ffffff;
+  font-style: normal;
 }
 
 .mail-footer,
 .telephone-footer {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--sec-backgroundcolor);
+}
+
+.mail-footer:hover,
+.mail-footer:focus {
+  color: var(--sec-backgroundcolor);
+}
+
+.telephone-footer:hover,
+.telephone-footer:focus {
+  color: var(--sec-backgroundcolor);
 }
