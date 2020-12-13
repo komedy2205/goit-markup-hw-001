@@ -1,9 +1,12 @@
 :root {
   --main-text-color: #212121;
   --sec-text-color: #ffffff;
+  --descrip-text-color: #757575;
+  --team-button-text-color: #f5f4fa;
 
   --main-backgroundcolor: #ffffff;
   --sec-backgroundcolor: #2196f3;
+  --hero-backgroundcolor: #2f303a;
 }
 
 a {
@@ -23,9 +26,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.web {
-  color: var (--sec-backgroundcolor);
+.webstudio {
+  color: var(--main-text-color);
   font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.web {
+  color: var(--sec-backgroundcolor);
 }
 
 .link-studio,
@@ -40,7 +51,8 @@ body {
 }
 
 .link-portfolio:hover,
-.link-portfolio:focus {
+.link-portfolio:focus,
+.link-portfolio:active {
   color: var(--sec-backgroundcolor);
 }
 
@@ -65,7 +77,7 @@ body {
   color: var(--sec-backgroundcolor);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-backgroundcolor);
 }
 
 h1 {
@@ -77,15 +89,23 @@ h1 {
 }
 .service-button {
   background-color: var(--sec-backgroundcolor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .service-button-p {
-  color: #f5f4fa;
+  color: var(--team-button-text-color);
 }
 
 .service-button-p:hover,
 .service-button-p:focus {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
 }
 
 .buttons > li:hover,
@@ -98,11 +118,11 @@ h1 {
 
 .button-text-p:hover,
 .button-text-p:focus {
-  color: #ffffff;
+  color: var(--sec-text-color);
 }
 
 .button-text {
-  color: #ffffff;
+  color: var(--sec-text-color);
 }
 
 h2,
@@ -114,47 +134,42 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--descrip-text-color);
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-button-text-color);
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--hero-backgroundcolor);
 }
 
 .description-team {
-  color: #757575;
+  color: var(--some-text-color);
 }
 
 .web-footer {
-  color: #2196f3;
+  color: var(--sec-backgroundcolor);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .studio-logo-footer {
-  color: #ffffff;
+  color: var(--sec-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
 }
 
 .address {
-  color: #ffffff;
+  color: var(--sec-text-color);
   font-style: normal;
 }
 
 .mail-footer,
 .telephone-footer {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.address:hover,
-.address:focus {
-  color: var(--sec-backgroundcolor);
 }
 
 .mail-footer:hover,
