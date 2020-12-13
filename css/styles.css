@@ -2,7 +2,7 @@
   --main-text-color: #212121;
   --sec-text-color: #ffffff;
   --descrip-text-color: #757575;
-  --team-button-text-color: #f5f4fa;
+  --team-backgroundcolor: #f5f4fa;
 
   --main-backgroundcolor: #ffffff;
   --sec-backgroundcolor: #2196f3;
@@ -11,6 +11,7 @@
 
 a {
   text-decoration: none;
+  color: var(--descrip-text-color);
 }
 
 .team img {
@@ -100,7 +101,7 @@ h1 {
 }
 
 .service-button-p {
-  color: var(--team-button-text-color);
+  color: var(--team-backgroundcolor);
 }
 
 .service-button-p:hover,
@@ -108,10 +109,6 @@ h1 {
   color: var(--sec-backgroundcolor);
 }
 
-.buttons > li:hover,
-.buttons > li:focus {
-  color: var(--sec-backgroundcolor);
-}
 .button-text-p {
   color: var(--main-text-color);
 }
@@ -138,7 +135,7 @@ h3 {
 }
 
 .team {
-  background-color: var(--team-button-text-color);
+  background-color: var(--team-backgrougcolor);
 }
 
 footer {
