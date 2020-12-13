@@ -40,21 +40,30 @@ body {
   color: var(--sec-backgroundcolor);
 }
 
+header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
 .link-studio,
 .link-portfolio,
 .link-contacts {
   color: var(--main-text-color);
 }
 
+.link-portfolio:focus,
+.link-portfolio:hover {
+  color: var(--sec-backgroundcolor);
+}
+
 .link-studio:hover,
-.link-studio:focus,
-.link-studio:active {
+.link-studio:focus {
   color: var(--sec-backgroundcolor);
 }
 
 .link-contacts:hover,
-.link-contacts:focus,
-.link-contacts:active {
+.link-contacts:focus {
   color: var(--sec-backgroundcolor);
 }
 
@@ -78,7 +87,7 @@ body {
   background-color: var(--hero-backgroundcolor);
 }
 
-h1 {
+.first-title {
   color: var(--main-backgroundcolor);
   font-style: normal;
   font-weight: 900;
@@ -86,6 +95,7 @@ h1 {
   line-height: 60px;
   text-transform: uppercase;
 }
+
 .service-button {
   background-color: var(--sec-backgroundcolor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -98,10 +108,9 @@ h1 {
   line-height: 1.87;
 }
 
-.buttons:hover,
-.buttons:focus,
-.buttons:active {
-  color: var(--sec-backgroundcolor);
+.but-active:hover,
+.but-active:focus {
+  background-color: var(--sec-backgroundcolor);
 }
 
 .active {
@@ -126,14 +135,14 @@ h1 {
   color: var(--sec-text-color);
 }
 
-h2 {
+.sec-title {
   color: var(--main-text-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
 }
 
-h3 {
+.third-title {
   color: var(--main-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -177,10 +186,16 @@ footer {
 .address {
   color: var(--sec-text-color);
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .mail-footer,
 .telephone-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
 
