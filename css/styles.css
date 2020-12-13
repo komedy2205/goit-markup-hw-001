@@ -47,7 +47,8 @@ body {
 }
 
 .link-studio:hover,
-.link-studio:focus {
+.link-studio:focus,
+.link-studio:active {
   color: var(--sec-backgroundcolor);
 }
 
@@ -58,7 +59,8 @@ body {
 }
 
 .link-contacts:hover,
-.link-contacts:focus {
+.link-contacts:focus,
+.link-contacts:active {
   color: var(--sec-backgroundcolor);
 }
 .mail {
@@ -101,7 +103,7 @@ h1 {
 }
 
 .service-button-p {
-  color: var(--team-backgroundcolor);
+  color: var(--sec-backgroundcolor);
 }
 
 .service-button-p:hover,
