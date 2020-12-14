@@ -68,7 +68,7 @@ header {
 }
 
 .mail {
-  color: var(--main-text-color);
+  color: var(--descrip-text-color);
 }
 
 .mail:hover,
@@ -77,7 +77,7 @@ header {
 }
 
 .telephone {
-  color: var(--main-text-color);
+  color: var(--descrip-text-color);
 }
 .telephone:hover,
 .telephone:focus {
@@ -98,6 +98,7 @@ header {
 
 .service-button {
   background-color: var(--sec-backgroundcolor);
+  color: var(--sec-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
